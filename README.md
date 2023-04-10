@@ -7,6 +7,6 @@ Time savings and reduced downtime are the major benefits of unit testing, while 
 # Storytelling: DATAMIN, our mining company
 To showcase some unit testing cases, we will create our own company, DATAMIN. DATAMIN works as a consulting company for mineral processing companies.
 
-We will use the open database for coal and metal mine production (https://zenodo.org/record/7369478), focusing on the processing file containing thousands and thousands of mines, their locations, type of processing plant and production output.
+We will use the open database for coal and metal mine production (https://zenodo.org/record/7369478) presented on a Nature paper (https://www.nature.com/articles/s41597-023-01965-y). We will only use the file containing mineral processing information (processing.csv) which contains mines, their locations, type of processing plant, production output and other relevant data.
 
 ![DATAMIN](images/datamin.png)
