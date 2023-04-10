@@ -5,6 +5,8 @@ I have created this repository to test some unit testing techniques. Unit testin
 Time savings and reduced downtime are the major benefits of unit testing, while improved documentation and more user trust are great side effects. Unit testing is thus a great ally to a data scientist, data engineer or a ML engineer to ensure data quality.
 
 # Storytelling: DATAMIN, our mining company
-To showcase some unit testing cases, we will create our own company, DATAMIN. DATAMIN works as a consulting company for mineral exploration companies and offers services on prospecting mineral deposits. Thus, our data will have features such as location, metal concentration and reserves.
+To showcase some unit testing cases, we will create our own company, DATAMIN. DATAMIN works as a consulting company for mineral processing companies.
+
+We will use the open database for coal and metal mine production (https://zenodo.org/record/7369478), focusing on the processing file containing thousands and thousands of mines, their locations, type of processing plant and production output.
 
 ![DATAMIN](images/datamin.png)
