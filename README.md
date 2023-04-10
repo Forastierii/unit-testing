@@ -6,3 +6,5 @@ Time savings and reduced downtime are the major benefits of unit testing, while 
 
 # Storytelling: DATAMIN, our mining company
 To showcase some unit testing cases, we will create our own company, DATAMIN. DATAMIN works as a consulting company for mineral exploration companies and offers services on prospecting mineral deposits. Thus, our data will have features such as location, metal concentration and reserves.
+
+![DATAMIN](images/datamin.png)
