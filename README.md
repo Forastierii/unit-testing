@@ -9,4 +9,6 @@ To showcase some unit testing cases, we will create our own company, DATAMIN. DA
 
 We will use the open database for coal and metal mine production (https://zenodo.org/record/7369478) presented on a Nature paper (https://www.nature.com/articles/s41597-023-01965-y). We will only use the file containing mineral processing information (processing.csv) which contains mines, their locations, type of processing plant, production output and other relevant data.
 
+On a later stage, we will use a tweaked, broken version of it (we will call it "broken_processing.csv"). Fields that are supposed to contain commas, sometimes don't; fields that are integers, sometimes come as strings; and so on. Then we will proceed to execute the tests and check if the tests written are capturing these errors.
+
 ![DATAMIN](images/datamin.png)
