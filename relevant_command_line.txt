@@ -1,0 +1,28 @@
+# To include a distro in WSL
+
+## Open PowerShell with administrator privileges and type and press Enter:
+wsl --install -d ubuntu
+## or simply
+wsl --install
+
+## Type the following to check the distros available:
+wsl --list
+
+
+# To remove a distro from WSL:
+
+## Type the following command to view a list of all available distros and press Enter: 
+wsl --list
+## or
+wsl -l
+
+## Type the following command to set a distro as the new default on Windows and press Enter:
+wsl --unregister DISTRO-NAME
+
+## In the command, replace DISTRO-NAME with the name of the distro you want to set as default (see step 3). For example, this command unregisters and deletes the Ubuntu Linux distribution:
+wsl --unregister Ubuntu
+
+## Type the following command to confirm distros and press Enter:
+wsl --list
+
+## Once you complete the steps, the distro will reset and no longer be available in WSL, but it won’t be uninstalled from the computer. If you want to reinstall the distro, you can open it again from the Start menu.
