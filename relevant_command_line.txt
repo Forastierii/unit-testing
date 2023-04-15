@@ -1,3 +1,5 @@
+Search for Command Prompt, right-click the top result, and select the Run as administrator option. 
+
 # To include a distro in WSL
 
 ## Open PowerShell with administrator privileges and type and press Enter:
@@ -9,12 +11,19 @@ wsl --install
 wsl --list
 
 
+# To set a distro as default on WSL:
+
+## Type the following command to view a list of all available distros and press Enter:
+wsl --list
+
+## Type the following command to set a distro as the new default and press Enter:
+wsl --setdefault DISTRO-NAME
+
+
 # To remove a distro from WSL:
 
 ## Type the following command to view a list of all available distros and press Enter: 
 wsl --list
-## or
-wsl -l
 
 ## Type the following command to set a distro as the new default on Windows and press Enter:
 wsl --unregister DISTRO-NAME
