@@ -1,4 +1,4 @@
-import pandas
+import pandas as pd
 
 def import_file(csv):
     
