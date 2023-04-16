@@ -1,0 +1,28 @@
+[2023-04-16 20:37:18,791] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: processing_dag.processing_task 2023-04-16T20:37:17.352734+00:00 [queued]>
+[2023-04-16 20:37:18,820] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: processing_dag.processing_task 2023-04-16T20:37:17.352734+00:00 [queued]>
+[2023-04-16 20:37:18,820] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-16 20:37:18,820] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2023-04-16 20:37:18,820] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-16 20:37:18,845] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): processing_task> on 2023-04-16T20:37:17.352734+00:00
+[2023-04-16 20:37:18,848] {standard_task_runner.py:52} INFO - Started process 64 to run task
+[2023-04-16 20:37:18,852] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'processing_dag', 'processing_task', '2023-04-16T20:37:17.352734+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/mining_etl.py', '--cfg-path', '/tmp/tmpz_hm0dkd', '--error-file', '/tmp/tmp8nmvqzh7']
+[2023-04-16 20:37:18,853] {standard_task_runner.py:77} INFO - Job 6: Subtask processing_task
+[2023-04-16 20:37:18,910] {logging_mixin.py:109} INFO - Running <TaskInstance: processing_dag.processing_task 2023-04-16T20:37:17.352734+00:00 [running]> on host d1ce0343a975
+[2023-04-16 20:37:19,079] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=processing_dag
+AIRFLOW_CTX_TASK_ID=processing_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-16T20:37:17.352734+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-16T20:37:17.352734+00:00
+[2023-04-16 20:37:19,140] {logging_mixin.py:109} INFO - Data was imported.
+[2023-04-16 20:37:19,164] {logging_mixin.py:109} INFO - Data was filtered.
+[2023-04-16 20:37:19,180] {logging_mixin.py:109} INFO - Dropping empty columns.
+[2023-04-16 20:37:19,182] {logging_mixin.py:109} INFO - Year and production was selected for the output file.
+[2023-04-16 20:37:19,182] {logging_mixin.py:109} INFO - Converting processing output from tonne to ton.
+[2023-04-16 20:37:19,196] {logging_mixin.py:109} INFO - Creating output file.
+[2023-04-16 20:37:19,196] {python.py:151} INFO - Done. Returned value was: None
+[2023-04-16 20:37:19,248] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=processing_dag, task_id=processing_task, execution_date=20230416T203717, start_date=20230416T203718, end_date=20230416T203719
+[2023-04-16 20:37:19,305] {local_task_job.py:151} INFO - Task exited with return code 0
+[2023-04-16 20:37:19,356] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

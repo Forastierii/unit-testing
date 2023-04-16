@@ -37,9 +37,12 @@ wsl --list
 ## Once you complete the steps, the distro will reset and no longer be available in WSL, but it won’t be uninstalled from the computer. If you want to reinstall the distro, you can open it again from the Start menu.
 
 
-# To install WSL inside Ubuntu
-code .
+# To check running WSL instances, from PowerShell terminal:
+wsl -l -v
 
+
+# To install WSL inside Ubuntu, from WSL Ubuntu terminal:
+code .
 
 # The directories of interest are:
 - /opt/airflow/dags
