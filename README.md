@@ -1,5 +1,5 @@
 # Unit testing & Airflow orchestration (in Linux distro)
-I have created this repository to use a couple of tools of data engineering in a single project. Data Engineering involves making data processing a reliable, repeatable, and maintainable process. I will primarily use unit testing and airflow orchestration.
+I have created this repository to use a couple of tools of data engineering in a single project. Data Engineering involves making data processing a reliable, repeatable, and maintainable process. I will primarily use unit testing (to ensure data quality), Docker (to conteinerize our Linux env) and Airflow (for data orchestration).
 
 Unit testing is a bag of techniques used to assure data quality. Once data is being pipelined from one point to another, premises may change - trailing zeros, lower/uppercasing, data type changes, etc. Bug fixes, new features and refactoring are other factors. To assure that everything that is feed into a data environment is kept integer, automation should raise any of these inconsistencies as soon as they are identifiable. This is where unit testing comes in.
 
